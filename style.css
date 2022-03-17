@@ -1,0 +1,123 @@
+/* 
+font-family: 'Raleway', sans-serif;
+300 400 500 900 (normal and italic)
+*/
+
+* {
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* min-height up to 90vh */
+.tall-50 {
+  min-height: 50vh;
+}
+
+.tall-90 {
+  min-height: 90vh;
+}
+
+/* Padding and margin */
+.padded {
+  padding: 5%;
+}
+.padded-1 {
+  padding: 1rem;
+}
+
+.padded-lg {
+  padding: 10%;
+}
+
+/* Text styles */
+
+.light-text {
+  color: white;
+}
+
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+
+/* Typography */
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+/* Background images */
+.bg-dark {
+  background-color: #24282b;
+}
+
+.bg-ocean {
+  background-color: #24282b;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/images/ocean.png");
+}
+
+.bg-submarine {
+  background-size: 100%;
+  width: 100%;
+  height: auto; 
+  background-position: left;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1%;
+  bottom: 5%;
+  background-image: url("/images/submarine.png");
+}
+
+.bg-fish-1 {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/images/fish1.png");
+}
+
+.bg-fish-2 {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/images/fish2.png");
+}
+
+.bg-underwater {
+  background-color: #24282b;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/images/underwater.jpg");
+}
+
+.bg-cave {
+  background-size: 100%;
+  width: 100%;
+  height: auto; 
+  background-position: right;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  background-image: url("/images/cave.png");
+}
+
+.relative {
+  position: relative;
+}
