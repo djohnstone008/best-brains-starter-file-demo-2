@@ -60,12 +60,13 @@ h1 {
 }
 
 /* Background images */
-.bg-dark {
-  background-color: #24282b;
+.bg-blue {
+  background-color: #61cdfa;
 }
 
+
 .bg-ocean {
-  background-color: #24282b;
+  background-color: #61cdfa;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
